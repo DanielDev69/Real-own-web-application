@@ -1,0 +1,67 @@
+.portfolio {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    text-align: flex-start;
+    color: #035946;
+    padding: 1.8rem 1rem;
+  }
+  
+  .description p{
+    margin-bottom: 2rem;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+  }
+
+  .card-direction{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: none;
+    box-shadow:
+    5.9px 13px 8.4px rgba(0, 0, 0, 0.11),
+    19.7px 43.6px 23.1px rgba(0, 0, 0, 0.066),
+    88px 195px 86px rgba(0, 0, 0, 0.044)
+    ;
+ }
+
+  .card img {
+    width: 160px;
+  }
+
+  .card-details{
+    padding: 0.3rem;
+  }
+  
+  .card h2 {
+    font-size: 1.2rem;
+    color: #035946;
+    padding-bottom: 4px;
+  }
+  
+  .card p {
+    font-size: 0.8rem;
+    line-height: 6px;
+    text-align: flex-start;
+  }
+  
+  .linking {
+    display: inline-block;
+    color: #035946;
+    text-decoration: none;
+    margin-left: 7.3rem;
+  }
+  

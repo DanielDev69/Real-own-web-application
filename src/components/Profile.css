@@ -1,0 +1,83 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-section {
+    margin: 0.8rem;
+    width: 50%;
+  }
+
+  .profile-section h1{
+    color: #035946;
+    font-size: 1.8rem;
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .profile-info img{
+    width: 8rem;
+    height: 8rem;
+    clip-path: circle(50%);
+  }
+  
+  .profile-buttons {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .profile-name {
+    display: inline-block;
+  }
+  
+  .green-button {
+    background-color: #035946;
+    color: white;
+    border: none;
+    padding: 0.7rem 2.8rem;
+    cursor: pointer;
+  }
+
+  .profile-section h2{
+    font-size: 0.8rem;
+    color: #000;
+  }
+  
+  .logout-button {
+    background-color: transparent;
+    color: red;
+    border: none;
+    padding: 0;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    margin-top: 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  ul li {
+    padding-top: 0.5rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #035946;
+  }
+  
+  a:hover {
+    border-bottom: 1px solid #035946;
+  }
+
+  a:active{
+    border-bottom: #035946;
+    color: #cfe8cc;
+  }
+  

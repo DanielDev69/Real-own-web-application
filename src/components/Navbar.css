@@ -1,0 +1,60 @@
+.navbar {
+    background: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3rem;
+}
+
+.greetings{
+    color: #035946;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.greetings span{
+    font-size: 0.9rem;
+}
+
+.navbar__left {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__left img{
+    background: none;
+    margin-top: -1rem;
+}
+
+.navbar__left h2 {
+    color: #035946;
+}
+
+.navbar__left h2 span {
+    font-size: 14px;
+}
+
+.navbar__left img {
+    padding-top: 3.8rem;
+    padding-left: 5px;
+    font-size: 25px;
+}
+
+.nav_rite:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 978px) {
+    .nav_icon img{
+        display: inline;
+    }
+
+    .fa-bars {
+        display: inline;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+   .navbar__left {
+    display: none;
+   } 
+}
